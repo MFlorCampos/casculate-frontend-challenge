@@ -5,10 +5,9 @@ export async function GET(request: NextRequest, context: any) {
     {
       id: "banner-top",
       type: "BANNER",
-      image:
-        "https://uploads-ssl.webflow.com/63724a43064100cc399c20a5/6380720fca116d91658aeca2_arbeitsrecht_bg.webp",
-      title: "Get your money easily, digitally, and without risk",
-      subtitle: "We are your partner for all legal questions",
+      image: "https://assets.weforum.org/article/image/qujn_8v_rOZ1awPi9AVIPeXeO86El1Oy06-usrXjYRo.jpg",
+      title: "Stay Informed About Flight News",
+      subtitle: "Get updates on flight regulations, compensation rights, and more.",
     },
     {
       id: "flugrecht-montrealer-abkommen",
