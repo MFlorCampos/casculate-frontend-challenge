@@ -5,9 +5,9 @@ export async function GET(request: NextRequest, context: any) {
     {
       id: "banner-top",
       type: "BANNER",
-      image: "https://assets.weforum.org/article/image/qujn_8v_rOZ1awPi9AVIPeXeO86El1Oy06-usrXjYRo.jpg",
-      title: "Stay Informed About Flight News",
-      subtitle: "Get updates on flight regulations, compensation rights, and more.",
+      image: "https://uploads-ssl.webflow.com/63724a43064100cc399c20a5/6380720fca116d91658aeca2_arbeitsrecht_bg.webp",
+      title: "Get your money easily, digitally and without risk",
+      subtitle: "We are your partner for all legal questions",
     },
     {
       id: "flugrecht-montrealer-abkommen",
@@ -144,9 +144,9 @@ export async function GET(request: NextRequest, context: any) {
       Follow up regularly with the airline about your baggage status.`
     },
     {
-      id: "flugrecht-pauschalreise",
+      id: "flug-unwetter",
       image:
-        "https://uploads-ssl.webflow.com/63ba988718d4e015a233c39c/64e8a1674dadb148cd1d4053_flugrecht-entschaedigung-gepaeckprobleme-verspaetung-verlust-schaden-p-1600.jpg",
+        "https://uploads-ssl.webflow.com/63ba988718d4e015a233c39c/64da0a3c034c6c5f000fe6b3_flug-unwetter-p-1600.webp",
       type: "NEWS",
       title: "Rights of Package Tour Travelers in Case of Airline Bankruptcy",
       subtitle:
@@ -167,12 +167,11 @@ export async function GET(request: NextRequest, context: any) {
       In case of airline bankruptcy, immediately contact your tour operator for assistance. They are required to assist you under the PTD and will provide you with the necessary support to mitigate the disruption.
       
       In conclusion, understanding your rights and taking proactive steps can help you manage the situation effectively when an airline goes bankrupt, ensuring your travel plans are not entirely derailed.`
-
     },
     {
-      id: "flugrecht-entschaedigung-anspruch",
+      id: "flugrecht",
       image:
-        "https://uploads-ssl.webflow.com/63ba988718d4e015a233c39c/64e8a1674dadb148cd1d4053_flugrecht-entschaedigung-gepaeckprobleme-verspaetung-verlust-schaden-p-1600.jpg",
+        "https://uploads-ssl.webflow.com/63ba988718d4e015a233c39c/64ccd45a165c2edba144d7de_flugrecht-_1_-p-1600.webp",
       type: "NEWS",
       title: "Understanding Your Right to Compensation for Flight Issues",
       subtitle:
@@ -203,11 +202,8 @@ export async function GET(request: NextRequest, context: any) {
       If the airline refuses your claim, you can escalate it to the relevant national enforcement body or consider alternative dispute resolution methods.
       
       Understanding your rights and knowing the steps to claim compensation can ensure you are adequately compensated for any flight disruptions, helping to mitigate the inconvenience and financial loss.`
-
     }
   ];
 
-  return new Response(JSON.stringify(response), {
-    headers: { "content-type": "application/json" },
-  });
+  return new Response(JSON.stringify(response));
 }
